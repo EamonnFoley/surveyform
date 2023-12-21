@@ -1,0 +1,86 @@
+body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f5f6f7;
+  font-family: FreeMono;
+  font-size: 16px;
+  background-image: url(https://cdn.pixabay.com/photo/2023/01/30/16/29/flowers-7756084_1280.jpg);
+}
+h1 {margin: 1em auto;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 20px;
+  }
+p {margin-bottom: 20px;
+text-align: center;
+font-size: 20px;
+}
+.desc{font-style: italic;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 0rem 0;
+  padding-bottom: 2rem ;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 8px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #fff2cc;
+  border: 1px solid #0a0a23;
+  color: black;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 1em auto;
+  height: 1em;
+  font-size: 1.3rem;
+  background-color: pink;
+  border-color: white;
+  min-width: 200px;
+}
+.form {width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  background-color: hsla(0, 100%, 10%, 70%);
+}
+.checkbox { width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  min-height: 1em;
+  max-height: 1em}
+
+legend {min-height: 1.8em;}
