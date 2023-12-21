@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css"/>
+  <body>
+    <div class="form">
+<h1 id="title">Do You Enjoy Living?</h1>
+<p id="description" class="desc">A question that's literally life and death.</p>
+<p2><form id="survey-form">
+<label
+ for="name" id="name-label">Name: <input id="name" type="text" placeholder="eg. John" required></label><br>
+<label
+ for="email" id="email-label">Email: <input id="email" type="email" placeholder="eg. steven@gmail.com"  required></label><br>
+<label
+ for="Age" id="number-label">Age: <input id="number" type="number" pattern="[0-5]{8,}" min="13" max="120" placeholder="eg. 25" required></label></p2><br>
+ <label for "question">Do you enjoy life?
+ <select id="dropdown">
+   <option value="">(select one)</option>
+   <option value="1">Yes</option>
+   <option value="2">No</option>
+   </select>
+   </label><br>
+   <fieldset>
+     <legend>Are you answering this truthfully?</legend>
+     <label for="I am"><input id="I am" type="radio" name="truth" class="inline" value="1" checked/>I am</label>
+     <label for="Not really"><input id="Not really" type="radio" name="truth" class="inline"value="2"/>Not really</label>
+     <label for="Possibly"><input id="Possibly" type="radio" name="truth" class="inline"value="3"/>Possibly</label>
+     </fieldset>
+     <label for="What's the best thing about life?" class="checkbox">What's the best thing about life? (check all that apply)
+     </label><br>
+       <label for="Sports"><input id="Sports" type="checkbox" name-"Sports" value="Sports" class="checkbox">Sports</label><br>
+       <label for="Family"><input id="Family" type="checkbox" name-"Family" value="Family"class="checkbox">Family</label><br>
+        <label for="Nothing"><input id="Nothing" type="checkbox" name-"Nothing" value="Nothing"class="checkbox">Nothing</label><br><br>
+        <label for="Additional comments">Additional Comments: 
+          <textarea id="Additional Comments" name="Additional Comments" rows="4" cols="40" placeholder="Provide any additional comments here...."></textarea></label><br>
+          <input id="submit" type="submit" value="submit">
+              </div>
+          </body>
+</form>
